@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SALESDATA.xlsx
+Query=`AmazonFoodCategory_1 Datase...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CustKey" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="DateKey" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Date" />
+            <Field name="Discount Amount" size="255" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="V_String" />
+            <Field name="Invoice Date" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Date" />
+            <Field name="Invoice Number" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Item Class" size="255" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="V_String" />
+            <Field name="Item Number" size="255" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="V_String" />
+            <Field name="Item" size="255" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="V_String" />
+            <Field name="Line Number" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="List Price" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Order Number" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Promised Delivery Date" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Date" />
+            <Field name="Sales Amount" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Amount Based on List Price" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Cost Amount" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Margin Amount" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Price" size="255" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="V_String" />
+            <Field name="Sales Quantity" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Rep" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="U/M" size="255" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="V_String" />
+            <Field name="F21" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="F22" size="255" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="V_String" />
+            <Field name="F23" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="F24" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CustKey" selected="True" />
+            <SelectField field="DateKey" selected="True" />
+            <SelectField field="Discount Amount" selected="True" />
+            <SelectField field="Invoice Date" selected="True" />
+            <SelectField field="Invoice Number" selected="True" />
+            <SelectField field="Item Class" selected="True" />
+            <SelectField field="Item Number" selected="True" />
+            <SelectField field="Item" selected="True" />
+            <SelectField field="Line Number" selected="True" />
+            <SelectField field="List Price" selected="True" />
+            <SelectField field="Order Number" selected="True" />
+            <SelectField field="Promised Delivery Date" selected="True" />
+            <SelectField field="Sales Amount" selected="True" />
+            <SelectField field="Sales Amount Based on List Price" selected="True" />
+            <SelectField field="Sales Cost Amount" selected="True" />
+            <SelectField field="Sales Margin Amount" selected="True" />
+            <SelectField field="Sales Price" selected="True" />
+            <SelectField field="Sales Quantity" selected="True" />
+            <SelectField field="Sales Rep" selected="True" rename="Sales Report" />
+            <SelectField field="U/M" selected="True" rename="Unit_of_Measure" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CustKey","DateKey","Discount Amount","Invoice Date","Invoice Number","Item Class","Item Number","Item","Line Number","List Price","Order Number","Promised Delivery Date","Sales Amount","Sales Amount Based on List Price","Sales Cost Amount","Sales Margin Amount","Sales Price","Sales Quantity","Sales Report","Unit_of_Measure"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="942" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_13692_1f07cc86c98aaf4cba8c92fd3abd6fbf_\Engine_13692_1964cce24e104541840ee7cd1648c8fb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Unit_of_Measure]='EA' THEN 'EACH' ELSEIF [Unit_of_Measure]='SE' THEN 'Some SI Units' ELSE 'PAIR' ENDIF" field="Unit_of_Measure" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unit_of_Measure = IF [Unit_of_Measure]='EA' THEN 'EACH' ELSEIF [Unit_of_Measure]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="654" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Item Class</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-10-05 19:58:01</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2023-10-05 19:58:01</StartDate>
+              <EndDate>2023-10-05 19:58:01</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Item Class])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="750" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Discount Amount" selected="True" />
+            <Field field="Item Class" selected="True" />
+            <Field field="Item Number" selected="True" />
+            <Field field="Item" selected="True" />
+            <Field field="Sales Price" selected="True" />
+            <Field field="Unit_of_Measure" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CustKey" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="DateKey" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Date" />
+            <Field name="Discount Amount" source="Formula: IF !IsNull([_CurrentField_]) THEN &#xA;  REGEX_REPLACE([_CurrentField_],'\s+','')&#xA;ELSE [_CurrentField_]&#xA;ENDIF" type="Double" />
+            <Field name="Invoice Date" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Date" />
+            <Field name="Invoice Number" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Item Class" size="3" source="Formula: IF !IsNull([_CurrentField_]) THEN &#xA;  REGEX_REPLACE([_CurrentField_],'\s+','')&#xA;ELSE [_CurrentField_]&#xA;ENDIF" type="String" />
+            <Field name="Item Number" size="8" source="Formula: IF !IsNull([_CurrentField_]) THEN &#xA;  REGEX_REPLACE([_CurrentField_],'\s+','')&#xA;ELSE [_CurrentField_]&#xA;ENDIF" type="String" />
+            <Field name="Item" size="32" source="Formula: IF !IsNull([_CurrentField_]) THEN &#xA;  REGEX_REPLACE([_CurrentField_],'\s+','')&#xA;ELSE [_CurrentField_]&#xA;ENDIF" type="V_String" />
+            <Field name="Line Number" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="List Price" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Order Number" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Promised Delivery Date" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Date" />
+            <Field name="Sales Amount" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Amount Based on List Price" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Cost Amount" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Margin Amount" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Price" source="Formula: IF !IsNull([_CurrentField_]) THEN &#xA;  REGEX_REPLACE([_CurrentField_],'\s+','')&#xA;ELSE [_CurrentField_]&#xA;ENDIF" type="Double" />
+            <Field name="Sales Quantity" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Sales Report" source="File: C:\Users\HP\Downloads\ineuron expenditure project\SALESDATA.xlsx|||`AmazonFoodCategory_1 Dataset$`" type="Double" />
+            <Field name="Unit_of_Measure" size="13" source="Formula: IF [Unit_of_Measure]='EA' THEN 'EACH' ELSEIF [Unit_of_Measure]='SE' THEN 'Some SI Units' ELSE 'PAIR' ENDIF" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="858" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sales Price]*[Sales Quantity]" field="final sales amount" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[final sales amount = [Sales Price]*[Sales Quantity]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="978" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\HP\Desktop\ineuron_internship_data.xlsx|||sales_data</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ineuron_internship_data.xlsx
+Query=sales_data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ineuron_internship_dataflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b6995205-b4db-4c8b-8156-792b63aa1c34" />
+      <Telemetry>
+        <PreviousWorkflowId value="5f44e73b-4660-472b-bc07-9ec0a8e0c4e1" />
+        <OriginWorkflowId value="5f44e73b-4660-472b-bc07-9ec0a8e0c4e1" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
